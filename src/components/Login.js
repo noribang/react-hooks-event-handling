@@ -1,6 +1,7 @@
 import React from "react";
 
 function Login() {
+  /* Callback function event handler. */
   function handleSubmit(event) {
     event.preventDefault();
     console.log("I submit");

@@ -1,6 +1,7 @@
 import React from "react";
 
 function MultiButton() {
+  /* Callback function event handler. */
   function handleClick(number) {
     console.log(`Button ${number} was clicked`);
   }

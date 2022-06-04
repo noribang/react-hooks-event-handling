@@ -1,6 +1,7 @@
 import React from "react";
 
 function ChangeItUp() {
+  /* Callback function event handler. */
   function handleChange(event) {
     console.log(`${event.target.name}: ${event.target.value}`);
   }
