@@ -1,9 +1,14 @@
 import React from "react";
 
 function Tickler() {
-  function tickle() {
-    console.log("Teehee!");
+  // function tickle() {
+  //   console.log("Teehee!");
+  // }
+  /* Callback function event handler. */
+  function tickle(event) {
+    console.log(event);
   }
+
   // Return JSX button.
   /* Can only attach event listeners to DOM elements
      but not on React components. */
